@@ -8,12 +8,13 @@ body, html {
 }
 
 .head {
-    background: url('../Screenshot\ from\ 2024-10-21\ 22-26-30.png');
+    background: url('./Screenshot\ from\ 2024-10-21\ 22-26-30.png');
     background-repeat:no-repeat;
     background-position: center;
+    background-size: cover;
     color: #fdf7e4;
-    padding-top: 8%;
-    padding-bottom: 16%;
+    padding-top: 200px;
+    padding-bottom: 320px;
     width: 100%;
     text-align: center;
     
@@ -21,6 +22,9 @@ body, html {
 
 main {
     padding: 20px;
+}
+.most{
+    padding:20%;
 } 
 
 .images {
