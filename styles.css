@@ -2,37 +2,45 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
-}
-
-body {
-    background-image: url('Screenshot\ from\ 2024-10-21\ 22-26-30.png'); /* Add your background image here */
-    background-size: cover;
-    background-position: center;
     font-family: Arial, sans-serif;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
 }
 
-.container {
-    background-color: rgba(0, 0, 0, 0.5);
+.head {
+    background: url('../Screenshot\ from\ 2024-10-21\ 22-26-30.png');
+    background-repeat:no-repeat;
+    background-position: center;
+    color: #fdf7e4;
+    padding-top: 8%;
+    padding-bottom: 16%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+main {
+    padding: 20px;
+} 
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.images img {
+    max-width: 30%;
+    height: auto;
+}
+
+.synopsis, .additional-info {
+    background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-button {
-    background-color: #ff5722;
-    border: none;
-    padding: 10px 20px;
-    color: rgb(240, 210, 210);
-    border-radius: 5px;
-    cursor: pointer;
+h2 {
+    color: #ff5722;
 }
-
-button:hover {
-    background-color: #e64a19;
-}
-
